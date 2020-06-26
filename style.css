@@ -14,7 +14,7 @@ margin: 0;
 }
 
 header{
-	width: 100%;
+	width: auto;
 	height: 100vh;
 	background-image: url('bg.jpg');
 	overflow:hidden;
