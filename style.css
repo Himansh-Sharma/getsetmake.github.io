@@ -120,8 +120,9 @@ header{
 
 @media only screen and (max-width: 750px) {
    .menu_list li{
-	display: inline-flex;
+	display: inline-block;
 	text-transform: uppercase;
 	list-style: none;
+	font-size:200px;
 	letter-spacing:1px; padding-left: 10px;}
 }
