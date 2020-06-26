@@ -18,7 +18,8 @@ header{
 	height: 100vh;
 	background-image: url('bg.jpg');
 	overflow:hidden;
-	background-size: fill;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
 	font-family: 'Dosis', sans-serif;
 }
 .header_menu{
