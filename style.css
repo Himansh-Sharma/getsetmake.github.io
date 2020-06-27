@@ -27,6 +27,7 @@ header{
 	position:fixed;
 	width: 100%;
 	height: 100px;
+	z-index:22127;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
