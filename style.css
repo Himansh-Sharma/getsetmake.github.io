@@ -78,15 +78,15 @@ header{
 }
 .header_content h2{
 	margin-bottom: 50px;
-	font-size: 20px;
-	padding:30px 40px;
+	font-size: 30px;
+	padding:36px 46px;
 	font-weight: BOLDER;
-	letter-spacing: 0.3em;
+	letter-spacing: 0.4em;
 }
 .header_content h1{
 	margin-bottom: 50px;
 	font-size: 50px;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: 0.7em;
 }
 .header_content button{
@@ -121,7 +121,10 @@ header{
 
 /*///////////////////////////////////////////mobile view////////////////////////////////////////////*/
 
-@media only screen and (max-width: 750px) {
+				@media only screen and (max-width: 750px) {
+	
+	
+	
    .menu_list li{
 	display: inline-block;
 	text-transform:capitalize;
@@ -143,6 +146,13 @@ header{
 	font-size: 35px;
 	font-weight: bolder;
 	letter-spacing: 0.2em;}
+   .header_content h2{
+	font-size: 26px;
+	padding:32px 43px;
+	font-weight: BOLDER;
+	letter-spacing: 0.2em;
+	word-spacing: 0.3em;
+}
    .header_content button{
 	height: auto;
 	padding:8px 28px;
