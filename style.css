@@ -123,6 +123,16 @@ header{
 	display: inline-block;
 	text-transform: uppercase;
 	list-style: none;
-	font-size:4px;
-	letter-spacing:1px; padding-left: 10px;}
+	font-weight:90px;
+	word-spacing:1px; padding-left: 10px;
+        }
+   .header_content h1{
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 0.2em;}
+   .header_content button{
+	height: auto;
+	padding:8px 28px;
+	background-color:black;
+	font-size: 9px;}
 }
