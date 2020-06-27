@@ -62,6 +62,7 @@ header{
 	color:orange;
 	border-bottom-style:solid;
 	border-color:white;
+	transition-delay:0.2s;
 }
 
 .header_content{
