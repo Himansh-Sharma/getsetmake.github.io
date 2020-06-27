@@ -117,14 +117,15 @@ header{
 	letter-spacing: 1px;
 }
 
+/*////////////////mobile view/////////////////*/
 
 @media only screen and (max-width: 750px) {
    .menu_list li{
 	display: inline-block;
-	text-transform: uppercase;
+	text-transform:capitalize;
 	list-style: none;
 	font-weight:90px;
-	word-spacing:1px; padding-left: 10px;
+	word-spacing:2px; padding-left: 10px;
         }
    .header_content h1{
 	font-size: 35px;
@@ -136,11 +137,11 @@ header{
 	background-color:black;
 	font-size: 9px;}
   .header_content button:hover{
-	background-color: orange ,rgba(0,0,0,0.);
-	padding:10px 32px;
+	background-color: orange ,rgba(0,0,0,0.8);
+	padding:10px 30px;
 	color: #333333;
 	border-bottom-style:solid;
   	border-width:3px;
 	border-color:#f2f3f9;
-	font-size: 20px;}
+	font-size: 10px;}
 }
