@@ -102,7 +102,7 @@ header{
 	letter-spacing: 1px;
 }
 .header_content button:hover{
-	background-color: orange ,rgba(0,0,0,0.8),rgba(0,0,0,0.8);
+	background-color: orange;
 	padding:16px 38px;
 	color: #333333;
 	border-bottom-style:solid;
@@ -118,7 +118,7 @@ header{
 	letter-spacing: 1px;
 }
 
-/*////////////////mobile view/////////////////*/
+/*///////////////////////////////////////////mobile view////////////////////////////////////////////*/
 
 @media only screen and (max-width: 750px) {
    .menu_list li{
@@ -126,8 +126,18 @@ header{
 	text-transform:capitalize;
 	list-style: none;
 	font-weight:90px;
-	word-spacing:2px; padding-left: 10px;
+	word-spacing:2px; 
+	padding-left: 10px;
+	   margin-top:4px;
         }
+.logo{
+	width: 20px;
+	align-items: center;
+	
+}
+.logo img{
+	height: 28%;
+}
    .header_content h1{
 	font-size: 35px;
 	font-weight: bolder;
@@ -138,7 +148,7 @@ header{
 	background-color:black;
 	font-size: 9px;}
   .header_content button:hover{
-	background-color: orange ,rgba(0,0,0,0.8);
+	background-color: orange;
 	padding:10px 30px;
 	color: #333333;
 	border-bottom-style:solid;
@@ -146,4 +156,5 @@ header{
 	border-color:#f2f3f9;
 	margin-top:3px;
 	font-size: 10px;}
+ 
 }
