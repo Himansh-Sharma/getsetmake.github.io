@@ -102,12 +102,13 @@ header{
 	letter-spacing: 1px;
 }
 .header_content button:hover{
-	background-color: orange;
+	background-color: orange ,rgba(0,0,0,0.8),rgba(0,0,0,0.8);
 	padding:16px 38px;
 	color: #333333;
 	border-bottom-style:solid;
   	border-width:3px;
 	border-color:#f2f3f9;
+	font-color: black;
 }
 
 .header_content button a:hover{
@@ -143,5 +144,6 @@ header{
 	border-bottom-style:solid;
   	border-width:3px;
 	border-color:#f2f3f9;
+	margin-top:3px;
 	font-size: 10px;}
 }
