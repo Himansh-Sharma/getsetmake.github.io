@@ -45,14 +45,14 @@ header{
 	width: 80%;
 	text-align: right;
 	padding-right: 5px;
-	max-width: 750px;
+	max-width: 479px;
 }
 .menu_list li{
 	display: inline-block;
 	text-transform: uppercase;
 	list-style: none;
 	letter-spacing:2px; padding-left: 50px;
-	max-width: 750px;
+	max-width: 479px;
 	
 }
 .menu_list li a{
