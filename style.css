@@ -131,7 +131,6 @@ header{
 	width: 100%;
 	height: 100vh;
 	background-image: url('bg img.jpg');
-	overflow:hidden;
 	background-size:100%;
 	background-repeat:no-repeat;
 	font-family: 'Dosis', sans-serif;
