@@ -45,6 +45,7 @@ header{
 	width: 80%;
 	text-align: right;
 	padding-right: 5px;
+	max-width: 750px;
 }
 .menu_list li{
 	display: inline-block;
@@ -122,7 +123,7 @@ header{
 
 /*///////////////////////////////////////////mobile view////////////////////////////////////////////*/
 
-				@media only screen and (max-width: 750px) {
+				@media only screen and (max-width: 479px) {
 	
 	
 	
@@ -132,7 +133,7 @@ header{
 	list-style: none;
 	font-weight:90px;
 	word-spacing:2px; 
-	padding-left: 10px;
+	
 	   margin-top:4px;
         }
 .logo{
