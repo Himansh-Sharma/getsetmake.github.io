@@ -136,14 +136,14 @@ header{
 	font-family: 'Dosis', sans-serif;
 }	
    .menu_list li{
-	display: flex;
+	display: inline-block;
 	text-transform:capitalize;
 	list-style: none;
 	font-weight:90px;
 	word-spacing:2px; 
 	justify-content:space-around;
 	margin-top:4px;
-        padding-left: 30%;
+       
         }
 .logo{
 	width: 20px;
@@ -195,7 +195,7 @@ header{
 }
   .header_content{
 	position:absolute;
-	margin-top:19%;
+	margin-top:10px;
 }					
  
 }
