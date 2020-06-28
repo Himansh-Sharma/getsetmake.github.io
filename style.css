@@ -18,7 +18,7 @@ header{
 	height: 100vh;
 	background-image: url('bg img.jpg');
 	overflow:hidden;
-	background-size:cover;
+	background-size:100%;
 	background-repeat:no-repeat;
 	font-family: 'Dosis', sans-serif;
 }
@@ -45,7 +45,7 @@ header{
 	width: 80%;
 	text-align: right;
 	padding-right: 5px;
-	max-width: 479px;
+	max-width: 750px;
 	overflow:hidden;
 }
 .menu_list li{
@@ -53,7 +53,7 @@ header{
 	text-transform: uppercase;
 	list-style: none;
 	letter-spacing:2px; padding-left: 50px;
-	max-width: 479px;
+	max-width: 750px;
 	
 }
 .menu_list li a{
@@ -124,20 +124,27 @@ header{
 
 /*///////////////////////////////////////////mobile view////////////////////////////////////////////*/
 
-				@media only screen and (max-width: 479px) {
+				@media only screen and (max-width: 750px) {
 	
 	
-	
+    header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('bg img.jpg');
+	overflow:hidden;
+	background-size:100%;
+	background-repeat:no-repeat;
+	font-family: 'Dosis', sans-serif;
+}	
    .menu_list li{
-	display: inline-block;
+	display: flex;
 	text-transform:capitalize;
 	list-style: none;
 	font-weight:90px;
 	word-spacing:2px; 
 	justify-content:space-around;
-	margin-left:30%;
 	margin-top:4px;
-        padding-left: 10px;
+        padding-left: 30%;
         }
 .logo{
 	width: 20px;
@@ -148,7 +155,7 @@ header{
 	height: 28%;
 }
 .menu_list{
-	width: 80%;
+	width: 100%;
 	text-align: right;
 	padding-right: 5px;
 	overflow:hidden;
@@ -167,6 +174,7 @@ header{
 }
     #2h{
 	font-size: 25px;
+	padding:25px 47px;
 	font-weight: BOLD;
 	letter-spacing: 0.1em;
 	word-spacing: 0.3em;	   
@@ -187,6 +195,7 @@ header{
 	font-size: 10px;
 }
   .header_content{
+	position:absolute;
 	margin-top:19%;
 }					
  
