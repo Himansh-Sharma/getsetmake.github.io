@@ -46,6 +46,7 @@ header{
 	text-align: right;
 	padding-right: 5px;
 	max-width: 479px;
+	overflow:hidden;
 }
 .menu_list li{
 	display: inline-block;
@@ -133,8 +134,10 @@ header{
 	list-style: none;
 	font-weight:90px;
 	word-spacing:2px; 
-	padding-left:40%;
-	   margin-top:4px;
+	justify-content:space-around;
+	margin-left:30%;
+	margin-top:4px;
+        padding-left: 10px;
         }
 .logo{
 	width: 20px;
@@ -143,6 +146,12 @@ header{
 }
 .logo img{
 	height: 28%;
+}
+.menu_list{
+	width: 80%;
+	text-align: right;
+	padding-right: 5px;
+	overflow:hidden;
 }
    .header_content h1{
 	font-size: 32px;
